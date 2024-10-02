@@ -1,0 +1,11 @@
+a- La commande git pull permet de faire récuperer et synchroniser les contenus du répertoire distant vers le local
+
+b- La commande git clone permet de créer une copie du contenu du répértoire distant vers le local
+
+c- Un "fork" fait une copie d'une ou de toutes les branches d'un répertoir appartenant à un autre compte ou organisation à son propre compte ou 
+organisation
+
+d- Un "PR" c'est un demande de fusion d'une branche vers une autre, en tenant compte que la branche qui demande le PR doit être hiérarchiquement 
+en dessous de la branche la quelle on fais le PR
+
+
