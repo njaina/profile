@@ -1,2 +1,3 @@
 nom: RAKOTONIRINA
 prénoms: 'Njaina Sandratra
+status: déjà étudiant
