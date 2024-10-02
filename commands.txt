@@ -1,0 +1,38 @@
+# First command: clone the remote repository
+git clone https://github.com/njaina/profile/
+
+# Getting access to the project folder
+cd profile/
+
+# Create an empty profile.txt file
+echo "" > profile.txt
+
+#After have been added the first informations with a file editor i.e name & firstname,add and commit the change
+git add profile.txt
+git commit -m "info: added name and firstname" 
+# Now push it to the remote repository
+git push -u origin main
+
+# Update info for the profile status, then add and commit this new change
+git commit -am "update info: added profile status"
+# Redo the push command in the same branch
+git push origin -u main
+
+# Create a new file about the theory
+touch theory.txt
+# Push the new changes again
+git push -u origin main
+
+# When each theorical question has been answered properly, then add it and commit
+git add theory.txt
+git commit -m "theory: added some git commands theory"
+
+# Now, add, commit and push this commands file
+
+git add commands.txt
+
+git commit -m "added the command file"
+
+git push -u origin main
+
+
